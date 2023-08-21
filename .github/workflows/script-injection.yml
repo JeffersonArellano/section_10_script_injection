@@ -4,9 +4,7 @@ on:
     types:
       - opened
 jobs:
-  assign-label:
-    permissions:
-      issues: write
+  assign-label:    
     runs-on: ubuntu-latest
     steps:
       - name: Assign label
